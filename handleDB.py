@@ -53,7 +53,7 @@ if  __name__ == "__main__":
         updateSql = "update test set name = 'xxx' where id = 2"
         deleteSql = "delete from test where id = 3"
         # 没有设置默认自动提交，需要主动提交，以保存所执行的语句
-        #打印语句
+        # 打印语句
         print(selectSql)
         print(insertSql)
         print(updateSql)
